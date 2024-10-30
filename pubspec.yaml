@@ -1,0 +1,23 @@
+name: barqui_analysis_options
+description: "Basic analysis options for barqui"
+version: 0.0.1
+homepage: https://seulbeom.com
+publish_to: https://gitea.seulbeom.com/api/packages/barqui/pub
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dart_style: ^2.3.7
+  very_good_analysis: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
